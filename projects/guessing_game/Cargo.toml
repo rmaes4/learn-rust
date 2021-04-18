@@ -1,0 +1,12 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+authors = ["Rob Maes <remilmaes@gmail.com>"]
+edition = "2018"
+
+# Add dependencies under this header
+# Run cargo build to install them
+# Run cargo update to update dependencies
+# Cargo update will not increment major build number
+[dependencies]
+rand = "0.5.5"
